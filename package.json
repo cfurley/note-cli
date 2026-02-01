@@ -1,7 +1,11 @@
 {
   "name": "custom-cli",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
+  "bin": {
+    "note": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
